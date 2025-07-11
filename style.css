@@ -110,3 +110,67 @@
     justify-content: space-between;
     padding: 30px 0;
 }
+
+
+/* Feedback Section */
+
+.feedback-section{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.feedback-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.feedback{
+    border-radius: 10px;
+    background-color: #F2EDED;
+    padding: 20px 20px;
+    text-align: left;
+}
+.feedback h3{
+    color: #252432;
+    font-size: 20px;
+}
+.feedback p{
+    font-size: 14px;
+    padding: 10px 0 ;
+    color: rgba(0,0,0,0.5);
+}
+.reviewer-nam{
+    color:rgba(0,0,0,0.5) ;
+}
+.reviewer-nam p{
+    padding: 0%;
+}
+
+.reviewer-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+ /* Reade section  */
+.ready{
+    width: 65%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.ready img{
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+
+.ready button{
+    margin: 10px 0;
+}
+
+.ready h2{
+    margin-bottom: 15px;
+}
