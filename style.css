@@ -30,7 +30,7 @@
 }
 
 /* banner section */
-.banner{
+.bar{
     height: 250px;
     width: 65%;
     text-align: center;
@@ -38,21 +38,48 @@
     color: #4E47FF;
 }
 
-.banner h1{
-    font-size: 65px;
-    font-weight: bold;
+.bar h1{
     color: #252432;
     margin-bottom: 50px;
+    font-size: 65px;
+    font-weight: bold;
+    
 }
 
 
 
-/* sheard style */
+/* shear style */
 .btn-primary{
     color: #FFFFFF;
     font-weight: 600;
-    background-color: #4E47FF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+     background-color: #4E47FF;
+}
+
+/* action */
+.actions{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.action-1{
+    height: 170px;
+    width: 450px;
+}
+
+.action-2 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.sub-title{
+    color: rgba(37,36,50,0.5);
+    font-size: 20px;
+    margin: 12px 0;
 }
