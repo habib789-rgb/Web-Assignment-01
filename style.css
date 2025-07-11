@@ -91,6 +91,7 @@
     text-align: center;
     background-color: rgba(78,71,255,0.1);
     border-radius: 15px;
+     padding: 30px 70px;
     
 }
 
@@ -173,4 +174,93 @@
 
 .ready h2{
     margin-bottom: 15px;
+}
+
+
+/* In Touch Section */
+
+.get-in-touch{
+    margin: 20px auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #FFFFFF 50%;
+    background-color: #D6DDED;
+    border-radius: 10px;
+   
+    
+    
+}
+.get-title{
+    width: 45%;
+    font-size: 85px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.set-form{
+     width: 45%;
+     padding: 15px;
+}
+input{
+    height: 60px;
+    width: 80%;
+    display: block;
+    padding: 0 30px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    border: none;
+}
+label {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin:5px 0;
+}
+legend{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin:5px 0;
+}
+
+textarea{
+   padding: 20px 30px;
+   color: rgba(0,0,0,0.5);
+   border: none;
+}
+.btn-get{
+    width: 90%;
+     margin:10px 0;
+     
+}
+
+
+/* footer style */
+footer{
+    width: 45%;
+    margin: 100px auto 50px auto;
+    text-align: center;
+    color: #8987A1;
+}
+footer h1{
+    font-size: 90px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin: 20px 30px;
+   
+}
+
+footer li a{
+    text-decoration: none;
+    color: #8987A1;
+
+}
+.links{
+    margin: 25px 0;
 }
